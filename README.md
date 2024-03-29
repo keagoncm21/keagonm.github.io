@@ -1,1 +1,177 @@
-# keagonm.github.io
+<!DOCTYPE html>
+<html>
+
+<!-- layout provided by w3schools.com */ -->
+
+<head>
+<title>Keagon Madison</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>ABOUT</p>
+  </a>
+  <a href="#education" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-book w3-xxlarge"></i>
+    <p>EDUCATION</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#education" class="w3-bar-item w3-button" style="width:25% !important">EDUCATION</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">I'm</span> Keagon Madison.</h1>
+    <p>Computer Scientist.</p>
+    <img src="trench.jpg" alt="Keagon" class="w3-image" width="270" height="360">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+    <h2 class="w3-text-light-grey">Keagon Madison</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Keagon Madison is a dedicated individual currently pursuing a degree in computer science, blending technical expertise with a diverse professional background. With experience in HVAC operations and management roles at Sonic Drive-In, Keagon has honed skills in problem-solving, leadership, and efficient project management.
+
+	As an entrepreneur, he's ventured into the digital realm as an internet personality, showcasing a unique blend of creativity and strategic thinking. Proficient in video editing and with a passion for creativity and coding, Keagon brings a dynamic approach to content creation and technological innovation.
+	He strives to leverage his diverse skill set to contribute meaningfully to the tech industry, exploring new avenues for innovation and personal growth.
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+    <p class="w3-wide">Coding</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:95%"></div>
+    </div>
+    <p class="w3-wide">HVAC</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Video Editing</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:80%"></div>
+    </div><br>
+    
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Worked</span><br>
+        at a multitude of work sites
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Several</span><br>
+        Coding Projects Completed
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">90+</span><br>
+        Videos Edited
+      </div>
+    </div>
+	
+	<button class="w3-button w3-light-grey w3-padding-large w3-section">
+		<i class="fa fa-download"></i>
+		<a href="Keagon_Madison_Resume2024.pdf" download="Keagon_Madison_Resume2024.pdf">Download Resume</a>
+	</button>
+	
+  
+  <!-- Education Section-->
+  <div class="w3-padding-64 w3-content" id="education">
+    <h2 class="w3-text-light-grey">Education</h2>
+    <hr style="width:200px" class="w3-opacity">
+	<p>Classes taken have been from Summit Tech, UCM, and UMKC. Summit Tech and UCM credits were acquired during highschool as a part of dual credit programs.
+	
+	</p>
+	<ul>
+		<li>COMM-ST 110 - Fun Of Effect Sp & List - 2021 Fall Semester - A - 3.00 - Transferred</li>
+		<li>COMP-SCI 101 - Problm Slvng & Prgmg I - 2021 Fall Semester - A- - 3.00 - Taken</li>
+		<li>COMP-SCI 101L - Problem Solving/Program Lab I - 2021 Fall Semester - A - 1.00 - Taken</li>
+		<li>COMP-SCI 191 - Discrete Structures I - 2021 Fall Semester - B - 3.00 - Taken</li>
+		<li>COMP-SCI 1EB - Computer Science Elective - 2021 Fall Semester - A - 3.00 - Transferred</li>
+		<li>COMP-SCI 1EC - Computer Science Elective - 2021 Fall Semester - B - 3.00 - Transferred</li>
+		<li>COMP-SCI 201L - Problem Solving/Program Lab II - 2021 Fall Semester - A - 1.00 - Transferred</li>
+		<li>COMP-SCI 201L - Problem Solving/Program Lab II - 2022 Spring Semester - A - 1.00 - Taken</li>
+		<li>COMP-SCI 201R - Problm Slvng & Prgmg II - 2021 Fall Semester - A - 2.00 - Transferred</li>
+		<li>COMP-SCI 201R - Problm Slvng & Prgmg II - 2022 Spring Semester - A- - 3.00 - Taken</li>
+		<li>COMP-SCI 281R - Intro Cmptr Architecture & Org - 2023 Spring Semester - B+ - 3.00 - Taken</li>
+		<li>COMP-SCI 291 - Discrete Structures II - 2022 Spring Semester - A- - 3.00 - Taken</li>
+		<li>COMP-SCI 303 - Data Structures - 2022 Fall Semester - B+ - 3.00 - Taken</li>
+		<li>COMP-SCI 304WI - Ethics & Professionalism - 2023 Spring Semester - A - 3.00 - Taken</li>
+		<li>COMP-SCI 320 - Data Com. and Networking - 2023 Spring Semester - A - 3.00 - Taken</li>
+		<li>COMP-SCI 361 - Introduction to Cybersecurity - 2024 Spring Semester - 3.00 - In Progress</li>
+		<li>COMP-SCI 394R - Applied Probability - 2024 Spring Semester - 3.00 - In Progress</li>
+		<li>COMP-SCI 404 - Intro to Algorithms & Complex - 2023 Fall Semester - A - 3.00 - Taken</li>
+		<li>COMP-SCI 431 - Intro Operating Systems - 2023 Fall Semester - A - 3.00 - Taken</li>
+		<li>COMP-SCI 449 - Found of Software Engin - 2024 Spring Semester - 3.00 - In Progress</li>
+		<li>COMP-SCI 470 - In Database Mgmt Systems - 2023 Fall Semester - B - 3.00 - Taken</li>
+		<li>COMP-SCI 490WD - Special Topics (Web Development) - 2024 Spring Semester - 3.00 - In Progress</li>
+		<li>ENGLISH 110 - Introduction to Academic Prose - 2021 Fall Semester - CR - 3.00 - Transferred</li>
+		<li>ENGLISH 225 - Eng II:Inter Acad Prose - 2022 Fall Semester - A - 3.00 - Taken</li>
+		<li>GECDV 201 - Culture and Diversity (Bridging the Civil-Military Gap: What Happens When) - 2023 Spring Semester - A- - 3.00 - Taken</li>
+		<li>GECRT-AH 102 - Visual Art & Media Culture - 2022 Fall Semester - A - 3.00 - Taken</li>
+		<li>GECRT-SS 101 - Why Though? (Hip Hop and Social Justice) - 2022 Spring Semester - A - 3.00 - Taken</li>
+		<li>GEFSE 101 - First Semester Experience - 2021 Fall Semester - A- - 3.00 - Taken</li>
+		<li>GEOLOGY 220 - General Geology - 2023 Fall Semester - B - 3.00 - Taken</li>
+		<li>MATH 210 - Calculus I - 2021 Fall Semester - A- - 4.00 - Taken</li>
+		<li>MATH 220 - Calculus II - 2022 Spring Semester - B - 4.00 - Taken</li>
+		<li>MATH 300 - Linear Algebra I - 2023 Spring Semester - B- - 3.00 - Taken</li>
+		<li>PHYSICS 240 - Physics For Scientists and Eng - 2022 Fall Semester - A - 5.00 - Taken</li>
+		<li>POL-SCI 210 - American Government - 2021 Fall Semester - A - 3.00 - Transferred</li>
+		<li>STAT 235 - Elementary Statistics - 2022 Fall Semester - A - 3.00 - Taken</li>
+    </ul>
+
+  </div>
+	<!-- End of Education Section-->
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: keagonmadison@gmail.com</p>
+    </div><br>
+  </div>
+  
+
+    <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
